@@ -19,10 +19,11 @@ export default tseslint.config(
     rules: {
       'prefer-const': 'error',
       'no-unused-expressions': 'error',
-      'no-undef': 'error',
+      'no-undef': 'off',
       'no-console': 'off',
       '@typescript-eslint/consistent-type-definitions': ['error', 'type'],
       '@typescript-eslint/explicit-module-boundary-types': 'off',
+      '@typescript-eslint/no-console': 'off',
     },
     languageOptions: {
       parser: tsParser,

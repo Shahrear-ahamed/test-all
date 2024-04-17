@@ -5,3 +5,5 @@ function addFruit(fruit: string) {
 }
 
 addFruit('banana')
+
+console.log(favoriteFruits)
